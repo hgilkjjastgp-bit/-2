@@ -1,0 +1,16 @@
+{
+  "name": "@workspace/discord-bot",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:"
+  }
+}
